@@ -1,0 +1,116 @@
+{
+  "Main": {
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "uidmain"
+      }
+    }
+  },
+  "firstbloc": {
+    "textsection": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "textsection"
+      }
+    },
+    "linkdemo": {
+      "type": "Link",
+      "config": {
+        "label": "linkdemo"
+      }
+    },
+    "imagesection": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "imagesection"
+      }
+    }
+  },
+  "secondbloc": {
+    "partnersgroup": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "logospartners": {
+            "type": "Image",
+            "config": {
+              "constraint": {},
+              "thumbnails": [],
+              "label": "logospartners"
+            }
+          }
+        },
+        "label": "partnersgroup"
+      }
+    }
+  },
+  "thirdbloc": {
+    "textsection1": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "textsection"
+      }
+    },
+    "demolink": {
+      "type": "Link",
+      "config": {
+        "label": "demolink"
+      }
+    },
+    "illustration": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "illustration"
+      }
+    }
+  },
+  "vignette": {
+    "citation": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "citation"
+      }
+    },
+    "logoauth": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "logoauth"
+      }
+    },
+    "auth": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, strong",
+        "label": "auth"
+      }
+    }
+  },
+  "article": {
+    "article": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "article"
+      }
+    }
+  },
+  "form": {
+    "entete": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label": "entete"
+      }
+    }
+  }
+}

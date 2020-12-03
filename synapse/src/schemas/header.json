@@ -1,0 +1,12 @@
+{
+    "Main": {
+      "logosynapseheader": {
+        "type": "Image",
+        "config": {
+          "constraint": {},
+          "thumbnails": [],
+          "label": "logosynapseheader"
+        }
+      }
+    }
+  }
