@@ -38,6 +38,9 @@ module.exports = {
         schemas: {
           singlepage: require('./src/schemas/singlepage.json'),
           template: require('./src/schemas/template.json'),
+          synapse: require('./src/schemas/synapse.json'),
+          footer: require('./src/schemas/footer.json'),
+          header: require('./src/schemas/header.json'),
         }
       }
     },

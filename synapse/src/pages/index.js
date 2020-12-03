@@ -9,7 +9,8 @@ const IndexPage = ({data}) => (
   <Layout>
     {console.log(data)}
     <SEO title="Home" />
-    <h1>toto</h1>
+    <header>
+    </header>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
@@ -20,5 +21,6 @@ const IndexPage = ({data}) => (
     <Link to='/landingPage'>landing page</Link>
   </Layout>
 )
+
 
 export default IndexPage
