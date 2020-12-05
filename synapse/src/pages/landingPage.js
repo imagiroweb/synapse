@@ -43,9 +43,9 @@ const LandingPage = ({data}) => {
             <article className="third-bloc">
               <section>
                 {nomadeScreen ?
-                (<img src={data.prismicSynapse.data.logoauth.thumbnails.mobile.fluid.src} alt='' />)
+                (<img src={data.prismicSynapse.data.logoauth.thumbnails.mobile.fluid.src} alt={data.prismicSynapse.data.logoauth.thumbnails.mobile.alt} />)
                 :
-                (<img src={data.prismicSynapse.data.logoauth.fluid.src} alt='' />)
+                (<img src={data.prismicSynapse.data.logoauth.fluid.src} alt={data.prismicSynapse.data.logoauth.alt} />)
                 }
                 <div dangerouslySetInnerHTML={{ __html: data.prismicSynapse.data.article.html }} />
               </section>
@@ -131,6 +131,7 @@ export const templateQuery = graphql`
             height
             width
           }
+          alt
           fluid {
             src
           }
