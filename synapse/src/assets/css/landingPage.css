@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'aeonikregular';
+    src: url('../fonts/aeonik-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aeonik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+article {
+    font-size: 26px;
+    line-height: 31.2px;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-bloc {
+    background-color: #EBFAFF;
+    padding-top:90px;
+    padding-bottom: 90px;
+    font-family: 'aeonikregular';
+}
+.first-bloc section, .second-bloc section {
+    position: relative;
+}
+.first-bloc section div, .second-bloc section div{
+    width: 44%;
+}
+.first-bloc section h1 {
+    color: #003850;
+}
+.picto-link {
+    position: absolute;
+    bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'aeonikregular';
+}
+.picto-link:after {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    content: '';
+    width: 63px;
+    height: 63px;
+    background-image: url('../../images/landing-page/picto-link.png');
+}
+.partners-bloc {
+    margin: 60px 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.partners-bloc li {
+    margin: 0 39px;
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.second-bloc, .third-bloc, .form-bloc {
+    font-family: 'inter';
+}
+.second-bloc section div, .third-bloc div, .form-bloc div {
+    font-size: 20px;
+}
+.second-bloc section div {
+    width: 52%;
+    font-weight: 500;
+}
+.second-bloc section div h2 {
+    max-width: 680px;
+}
+.second-bloc section .picto-link {
+    bottom: 80px;
+}
+.third-bloc section {
+    align-items: start;
+}
+.third-bloc section img {
+    margin-left: -50px;
+}
+.third-bloc section div {
+    margin-top: 45px;
+    margin-left: 40px;
+}
+.third-bloc section div p {
+    max-width: 615px;
+}
+.form-bloc {
+    text-align: center;
+    background-color: #EBFAFF;
+    padding: 34px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.form-bloc form {
+    width: 592px;
+    padding: 25px;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: #fff;
+    box-shadow: 0px 16px 48px rgba(0, 55, 83, 0.1);
+    border-radius: 24px;
+}
+.form-bloc form input, .form-bloc form textarea, .form-bloc form button {
+    width: 336px;
+    height: 40px;
+    display: block;
+    margin: 18px auto;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'aeonikregular';
+    font-size: 14px;
+    padding-left: 20px;
+}
+.form-bloc form textarea {
+    height: 130px;
+}
+.form-bloc form button {
+    background: #6DD5C2;
+    color: #fff;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 47px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+    section {
+        flex-direction: column;
+    }
+    .first-bloc section div, .second-bloc section div{
+        width: 100%;
+    }
+    .third-bloc section {
+        align-items: center;
+    }
+    .third-bloc section img {
+        margin-left: 0px;
+    }
+}

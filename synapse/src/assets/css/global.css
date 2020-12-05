@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'aeonikregular';
+    src: url('../fonts/aeonik-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aeonik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/inter-variablefont_slntwght-webfont.woff2') format('woff2'),
+         url('../fonts/inter-variablefont_slntwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a {
+    text-decoration: none;
+}
+input:placeholder, textarea:placeholder {
+    color: #8F9F9E;
+}
+li {
+    list-style-type: none;
+}
+.wrapper{
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 20px;
+    margin: auto;
+}
+main {
+    z-index: 0;
+}
