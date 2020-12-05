@@ -5,6 +5,9 @@ html {
   box-sizing: border-box;
   overflow-y: scroll;
 }
+html * {
+  color: #003850;
+}
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -87,6 +90,7 @@ h1 {
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
+  transition: .4s;
 }
 mark {
   background-color: #ff0;
@@ -266,6 +270,7 @@ h2 {
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
+  transition: .4s;
 }
 h3 {
   margin-left: 0;
@@ -346,14 +351,14 @@ hgroup {
   margin-bottom: 1.45rem;
 }
 ul {
-  margin-left: 1.45rem;
+  margin-left: 0;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   list-style-position: outside;
   list-style-image: none;
 }
@@ -503,9 +508,7 @@ li > ol {
   margin-top: calc(1.45rem / 2);
 }
 li > ul {
-  margin-left: 1.45rem;
-  margin-bottom: calc(1.45rem / 2);
-  margin-top: calc(1.45rem / 2);
+  margin: 0;
 }
 blockquote *:last-child {
   margin-bottom: 0;
@@ -590,8 +593,43 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) {
   html {
     font-size: 100%;
+  }
+  h1 {
+    font-size: 47;
+    line-height: 63px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  
+}
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 40px;
+    line-height: 68px;
+  }
+  h2 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  h1 {
+    font-size: 60px;
+    line-height: 88px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 48px;
+}
+}
+@media only screen and (min-width: 1440px) {
+  h1 {
+    font-size: 80px;
+    line-height: 108px;
   }
 }

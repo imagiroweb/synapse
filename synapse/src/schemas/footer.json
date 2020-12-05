@@ -1,74 +1,74 @@
 {
-    "Main": {
-      "uid": {
-        "type": "UID",
-        "config": {
-          "label": "uidfooter"
-        }
-      },
-      "logofooter": {
-        "type": "Image",
-        "config": {
-          "constraint": {},
-          "thumbnails": [],
-          "label": "logofooter"
-        }
-      },
-      "menufooter": {
-        "type": "Group",
-        "config": {
-          "fields": {
-            "menulink": {
-              "type": "Link",
-              "config": {
-                "label": "menulink"
-              }
+  "Main" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "label" : "uidfooter"
+      }
+    },
+    "logofooter" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "logofooter"
+      }
+    },
+    "links" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "blocmenu" : {
+            "type" : "StructuredText",
+            "config" : {
+              "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+              "label" : "blocMenu"
             }
-          },
-          "label": "menufooter"
-        }
-      },
-      "newsletterzone": {
-        "type": "StructuredText",
-        "config": {
-          "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
-          "label": "newsletterzone"
-        }
-      },
-      "sociallinks": {
-        "type": "Group",
-        "config": {
-          "fields": {
-            "socialmedia": {
-              "type": "Link",
-              "config": {
-                "label": "socialmedia"
-              }
-            }
-          },
-          "label": "sociallinks"
-        }
-      },
-      "copyright": {
-        "type": "StructuredText",
-        "config": {
-          "single": "paragraph",
-          "label": "copyright"
-        }
-      },
-      "legalmentions": {
-        "type": "Group",
-        "config": {
-          "fields": {
-            "linkmentions": {
-              "type": "Link",
-              "config": {
-                "label": "linkmentions"
-              }
-            }
-          },
-          "label": "legalmentions"
-        }
+          }
+        },
+        "label" : "links"
       }
     }
+  },
+  "newsletter" : {
+    "label" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label" : "label"
+      }
+    },
+    "sociallinks" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "socialpicto" : {
+            "type" : "Image",
+            "config" : {
+              "constraint" : { },
+              "thumbnails" : [ ],
+              "label" : "socialPicto"
+            }
+          }
+        },
+        "label" : "socialLinks"
+      }
+    }
+  },
+  "mentions légales" : {
+    "copyright" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label" : "copyright"
+      }
+    },
+    "legalmentions" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+        "label" : "legalMentions"
+      }
+    }
+  }
 }

@@ -24,7 +24,10 @@
     "imagesection": {
       "type": "Image",
       "config": {
-        "constraint": {},
+        "constraint": {
+          "width": 474,
+          "height": 568
+        },
         "thumbnails": [],
         "label": "imagesection"
       }
@@ -82,8 +85,15 @@
     "logoauth": {
       "type": "Image",
       "config": {
-        "constraint": {},
-        "thumbnails": [],
+        "constraint": {
+          "width": 590,
+          "height": 290
+        },
+        "thumbnails" : [ {
+          "name" : "mobile",
+          "width" : 318,
+          "height" : 337
+        } ],
         "label": "logoauth"
       }
     },
