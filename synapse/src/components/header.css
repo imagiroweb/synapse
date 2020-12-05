@@ -64,3 +64,17 @@ span[class^="menu-bar"] {
 .menu-bar-bottom.show {
     transform: rotate(-45deg);
 }
+aside {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    background-color: #EBFAFF;
+    left: -100%;
+    transition: .4s;
+    font-family: 'aeonikregular';
+    font-weight: 600;
+}
+aside.show {
+    left: 0;
+}

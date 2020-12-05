@@ -7,7 +7,7 @@
 
 }
 article {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 31.2px;
 }
 section {
@@ -30,14 +30,17 @@ section {
 .first-bloc section h1 {
     color: #003850;
 }
-.picto-link {
-    position: absolute;
+.first-bloc .easy-access p {
+    font-size: 26px;
+}
+.link-demo a {
+    display: inline-block;
     bottom: 10px;
     font-weight: 700;
     font-size: 20px;
     font-family: 'aeonikregular';
 }
-.picto-link:after {
+.link-demo a:after {
     display: inline-block;
     vertical-align: middle;
     margin-left: 20px;
@@ -60,9 +63,6 @@ section {
 }
 .second-bloc, .third-bloc, .form-bloc {
     font-family: 'inter';
-}
-.second-bloc section div, .third-bloc div, .form-bloc div {
-    font-size: 20px;
 }
 .second-bloc section div {
     width: 52%;
@@ -131,6 +131,17 @@ section {
     section {
         flex-direction: column;
     }
+    article {
+        font-size: 14px;
+        line-height: 163%;
+    }
+    .first-bloc .easy-access p {
+        font-size: 19px;
+    }
+    .first-bloc section h1 {
+        font-size: 47px;
+        line-height: 135%;
+    }
     .first-bloc section div, .second-bloc section div{
         width: 100%;
     }
@@ -139,5 +150,11 @@ section {
     }
     .third-bloc section img {
         margin-left: 0px;
+    }
+    .form-bloc form {
+        width: 323px;
+    }
+    .form-bloc form input, .form-bloc form textarea {
+        width: 269px;
     }
 }

@@ -19,6 +19,10 @@ a {
 input:placeholder, textarea:placeholder {
     color: #8F9F9E;
 }
+ul {
+    margin: 0;
+    padding: 0;
+}
 li {
     list-style-type: none;
 }
